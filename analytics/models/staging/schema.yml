@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: postgres
+    database: anime_db
+    schema: public
+    tables:
+      - name: anime
+      - name: staff
+      - name: staff_roles
+      - name: anime_ratings
